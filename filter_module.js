@@ -22,11 +22,8 @@ module.exports = function (dir, ext, callback) {
   var fs = require('fs');
 
   fs.readdir(dir, function (err, list) {
-
     if (err) {
-
       return callback(err);
-
     } else {
 
       var filteredList = list.filter(sort);
@@ -36,12 +33,9 @@ module.exports = function (dir, ext, callback) {
           return value
         }
       }
-
     }
-
     callback(null, filteredList);
   });
-
 };
 
 /*

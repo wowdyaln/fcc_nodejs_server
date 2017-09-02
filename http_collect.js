@@ -19,7 +19,8 @@
 
   2） 使用第三方的套件（package）
   簡化從串流中收集資料的難度。兩個不同的套件提供了有用的 API
-  以解決這個習題（好像還有更多！）： bl (Buffer List) 以及 concat-stream
+  以解決這個習題（好像還有更多！）
+  ： bl (Buffer List) 以及 concat-stream
   。選一個吧！
 
   <https://npmjs.com/bl> <https://npmjs.com/concat-stream>
